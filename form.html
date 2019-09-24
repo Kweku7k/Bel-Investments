@@ -1,0 +1,171 @@
+<!-- {% extends "layout.html"%}
+
+    {% block content %} -->
+
+    <!DOCTYPE html>
+    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <html class="no-js">
+    <!--<![endif]-->
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Serenity</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/091f1122a7.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet"> 
+        <style type="text/css">
+            hr {
+                width: 98%;
+                height: 0px;
+                background-color: rgb(206, 203, 203);
+                /* margin-right: auto; */
+                /* margin-left: auto; */
+                margin-top: 3px;
+                margin-bottom: 3px;
+                border-width: 2px;
+            }
+        </style>
+    </head>
+    
+    <body>
+    
+        <header>
+            <!-- <nav class="navbar navbar-expand-lg navbar-light">
+                    
+                    <h1 class= "nav-brand">
+                        <a href="Xindex.html" class="navbar-brand"  style="font-family: 'Caveat Brush', cursive; font-size:40px">Serenity</a>
+                    </h1>
+                    /* Ellipse */
+    
+    position: absolute;
+    width: 45px;
+    height: 48px;
+    left: 141px;
+    top: 36px;
+    
+    border: 9px solid #45D4FF;
+    box-sizing: border-box;
+    
+                           -->
+                           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                            <!-- <img src="logo(1).png" style="width:121px;">    -->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                          
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">INDIVIDUALS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">BUSINESS</a>
+                                  </li>
+                              </ul>
+                              <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                              <!-- <a class="btn site-btn5 btn-light mr-sm-2 " href="https://www.senseble.health/senseble/#/login" role="button" style="border-radius:53px; width:120px; background: transparent">LOGIN</a> -->
+    
+                                <!-- <form class="form-inline">
+                                   <a class="btn site-btn1 btn-light mr-sm-2 " href="https://www.senseble.health/senseble/#/login" role="button" style="border-radius:53px; width:180px;">NEW ACCOUNT</a>
+                                  </form> -->
+                              
+                            </div>
+                          </nav>
+            
+                          
+        </header>
+        <form>
+            <fieldset>
+             <legend>Personalia:</legend>
+             <form>
+                <h5>We are happy you have chosen Bel Investments to aid in the growth of your company. We will need you to fill a couple of forms so we get know you. There after a service personell from Bel Investments will reach out to you.</h5>
+                    
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">First Name:  </label>
+                  <input type="text" class="form-control"   placeholder="John">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Last Name:  </label>
+                    <input type="text" class="form-control"   placeholder="Doe">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Phone Number:  </label>
+                    <input type="text" class="form-control"   placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Birthday:  </label>
+                    <input type="text" class="form-control"   placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Card Number</label>
+                    <input type="email" class="form-control" placeholder="4516947590435567">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">CVV:  </label>
+                    <input type="text" class="form-control"   placeholder="xxx">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Expiration Date</label>
+                    <input type="name" class="form-control"   placeholder="DD/MM/YYYY">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Address1  </label>
+                    <input type="text" class="form-control"   placeholder="24th Street Madina">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Address2  </label>
+                    <input type="text" class="form-control"   placeholder="25th Street Aflao">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">City  </label>
+                    <input type="text" class="form-control"   placeholder="Chicago">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">State</label>
+                    <input type="text" class="form-control"   placeholder="Africa">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Zip Code  </label>
+                    <input type="text" class="form-control"   placeholder="Nana">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Country  </label>
+                    <input type="text" class="form-control"   placeholder="Nana">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">City</label>
+                    <input type="text" class="form-control"   placeholder="Nana">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Phone Number  </label>
+                    <input type="text" class="form-control"   placeholder="+233 246 251 55587">
+                  </div>
+               
+              </form>
+            </fieldset>
+           </form>
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>
